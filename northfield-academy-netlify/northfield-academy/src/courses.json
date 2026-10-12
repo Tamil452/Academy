@@ -1,0 +1,711 @@
+{
+  "courses": [
+    {
+      "title": "Full-Stack Web Development",
+      "cat": "Technology",
+      "duration": "6 months",
+      "hours": "15 hrs a week",
+      "level": "Beginner",
+      "fee": "[Fee]",
+      "summary": "Go from your first line of HTML to deploying a full web application with a React front end, a Node.js API and a database. You write code in every class, and your instructor reviews it with you.",
+      "outcomes": [
+        "Build responsive pages with HTML, CSS and modern JavaScript",
+        "Create interactive interfaces in React",
+        "Write REST APIs with Node.js and Express",
+        "Design and query SQL and MongoDB databases",
+        "Use Git and GitHub the way teams do",
+        "Deploy an application to the cloud"
+      ],
+      "forWho": [
+        "Graduates who want a first job in software",
+        "Working professionals moving into tech",
+        "Self-taught learners who want structure and feedback"
+      ],
+      "prereq": "No coding experience needed. You should be comfortable using a computer and typing.",
+      "modules": [
+        {
+          "title": "Web foundations",
+          "weeks": "Weeks 1–4",
+          "topics": [
+            "How the web works",
+            "Semantic HTML",
+            "CSS layout with flexbox and grid",
+            "Responsive design"
+          ]
+        },
+        {
+          "title": "JavaScript",
+          "weeks": "Weeks 5–9",
+          "topics": [
+            "Variables, functions and objects",
+            "DOM and events",
+            "Async code and fetch",
+            "Debugging in the browser"
+          ]
+        },
+        {
+          "title": "React",
+          "weeks": "Weeks 10–14",
+          "topics": [
+            "Components and props",
+            "State and hooks",
+            "Routing",
+            "Working with APIs"
+          ]
+        },
+        {
+          "title": "Back end with Node.js",
+          "weeks": "Weeks 15–19",
+          "topics": [
+            "Express and REST",
+            "Authentication",
+            "SQL and MongoDB",
+            "Testing APIs"
+          ]
+        },
+        {
+          "title": "Shipping",
+          "weeks": "Weeks 20–24",
+          "topics": [
+            "Git workflows",
+            "Deployment",
+            "Capstone project",
+            "Demo day"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Portfolio website",
+          "desc": "A responsive personal site you deploy in month two and keep improving."
+        },
+        {
+          "title": "Task manager app",
+          "desc": "A React app with login, saved data and a REST API you write yourself."
+        },
+        {
+          "title": "Capstone",
+          "desc": "A full-stack product you choose, built in a team and presented on demo day."
+        }
+      ],
+      "tools": [
+        "VS Code",
+        "Git and GitHub",
+        "React",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "MongoDB",
+        "Postman"
+      ],
+      "batches": [
+        {
+          "type": "Weekday",
+          "days": "Mon to Fri",
+          "time": "10 am to 1 pm",
+          "day": "02",
+          "month": "Nov",
+          "open": true
+        },
+        {
+          "type": "Evening",
+          "days": "Mon to Fri",
+          "time": "6 pm to 9 pm",
+          "day": "16",
+          "month": "Nov",
+          "open": true
+        },
+        {
+          "type": "Weekend",
+          "days": "Sat and Sun",
+          "time": "9 am to 3 pm",
+          "day": "07",
+          "month": "Dec",
+          "open": true
+        }
+      ],
+      "instructorRole": "Lead, Web Development",
+      "instructorJob": "a full-stack developer",
+      "slug": "fullstack",
+      "desc": "HTML, CSS, JavaScript, React and Node.js. Build and deploy three projects, each reviewed line by line by your instructor.",
+      "timings": [
+        "Weekday",
+        "Evening",
+        "Weekend"
+      ]
+    },
+    {
+      "title": "Data Analytics with Python and Power BI",
+      "cat": "Technology",
+      "duration": "4 months",
+      "hours": "12 hrs a week",
+      "level": "Beginner",
+      "fee": "[Fee]",
+      "summary": "Learn to turn messy business data into clear answers. You will clean, analyse and visualise real datasets using Excel, SQL, Python and Power BI, then present your findings like an analyst.",
+      "outcomes": [
+        "Clean and organise data in Excel",
+        "Write SQL queries to pull and join data",
+        "Analyse data with Python and pandas",
+        "Build interactive Power BI dashboards",
+        "Pick the right chart for the question",
+        "Present findings to non-technical people"
+      ],
+      "forWho": [
+        "Graduates from any stream with an interest in numbers",
+        "Professionals in finance, sales or operations",
+        "Anyone who works with spreadsheets every day"
+      ],
+      "prereq": "Basic school maths and some familiarity with Excel. No programming needed.",
+      "modules": [
+        {
+          "title": "Excel for analysis",
+          "weeks": "Weeks 1–3",
+          "topics": [
+            "Formulas and lookups",
+            "Pivot tables",
+            "Cleaning data",
+            "Charts"
+          ]
+        },
+        {
+          "title": "SQL",
+          "weeks": "Weeks 4–6",
+          "topics": [
+            "SELECT and filtering",
+            "Joins",
+            "Grouping and aggregation",
+            "Window functions"
+          ]
+        },
+        {
+          "title": "Python for data",
+          "weeks": "Weeks 7–11",
+          "topics": [
+            "Python basics",
+            "pandas",
+            "Exploratory analysis",
+            "matplotlib and seaborn"
+          ]
+        },
+        {
+          "title": "Power BI",
+          "weeks": "Weeks 12–15",
+          "topics": [
+            "Data modelling",
+            "DAX measures",
+            "Dashboard design",
+            "Publishing and sharing"
+          ]
+        },
+        {
+          "title": "Capstone",
+          "weeks": "Weeks 16–17",
+          "topics": [
+            "Choose a dataset",
+            "Analysis",
+            "Dashboard",
+            "Final presentation"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Sales performance report",
+          "desc": "An Excel and SQL analysis of a retail dataset with clear recommendations."
+        },
+        {
+          "title": "Customer insights notebook",
+          "desc": "A Python analysis that segments customers and explains what drives repeat purchases."
+        },
+        {
+          "title": "Executive dashboard",
+          "desc": "A Power BI dashboard built for a manager who has five minutes to read it."
+        }
+      ],
+      "tools": [
+        "Excel",
+        "MySQL",
+        "Python",
+        "pandas",
+        "Jupyter",
+        "Power BI"
+      ],
+      "batches": [
+        {
+          "type": "Evening",
+          "days": "Mon to Fri",
+          "time": "6 pm to 8:30 pm",
+          "day": "16",
+          "month": "Nov",
+          "open": true
+        },
+        {
+          "type": "Weekday",
+          "days": "Mon to Fri",
+          "time": "2 pm to 4:30 pm",
+          "day": "30",
+          "month": "Nov",
+          "open": true
+        },
+        {
+          "type": "Weekend",
+          "days": "Sat and Sun",
+          "time": "10 am to 4 pm",
+          "day": "05",
+          "month": "Dec",
+          "open": true
+        }
+      ],
+      "instructorRole": "Lead, Data Analytics",
+      "instructorJob": "a data analyst",
+      "slug": "data-analytics",
+      "desc": "Excel, SQL, Python and Power BI. Clean real datasets, find the story in them and present it as a dashboard.",
+      "timings": [
+        "Weekday",
+        "Evening",
+        "Weekend"
+      ]
+    },
+    {
+      "title": "UI/UX Design",
+      "cat": "Design",
+      "duration": "3 months",
+      "hours": "10 hrs a week",
+      "level": "Beginner",
+      "fee": "[Fee]",
+      "summary": "Learn how to design apps and websites people find easy to use. You will research real users, sketch and test ideas, and build polished prototypes in Figma.",
+      "outcomes": [
+        "Plan and run user interviews",
+        "Map user journeys and information architecture",
+        "Wireframe and prototype in Figma",
+        "Apply typography, colour and layout principles",
+        "Build and use a design system",
+        "Write a portfolio case study"
+      ],
+      "forWho": [
+        "Students and graduates interested in design",
+        "Graphic designers moving into digital products",
+        "Developers who want to design better interfaces"
+      ],
+      "prereq": "No design experience needed. A sense of curiosity about how things work helps.",
+      "modules": [
+        {
+          "title": "Design thinking and research",
+          "weeks": "Weeks 1–3",
+          "topics": [
+            "The design process",
+            "User interviews",
+            "Personas",
+            "Problem statements"
+          ]
+        },
+        {
+          "title": "Structure and flows",
+          "weeks": "Weeks 4–5",
+          "topics": [
+            "Information architecture",
+            "User flows",
+            "Sketching",
+            "Wireframes"
+          ]
+        },
+        {
+          "title": "Visual design",
+          "weeks": "Weeks 6–8",
+          "topics": [
+            "Typography",
+            "Colour",
+            "Layout grids",
+            "Components"
+          ]
+        },
+        {
+          "title": "Prototyping and testing",
+          "weeks": "Weeks 9–10",
+          "topics": [
+            "Figma prototyping",
+            "Usability testing",
+            "Iterating on feedback"
+          ]
+        },
+        {
+          "title": "Portfolio",
+          "weeks": "Weeks 11–12",
+          "topics": [
+            "Case study writing",
+            "Portfolio review",
+            "Presentation"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "App redesign",
+          "desc": "Research and redesign a part of an app people complain about, backed by user tests."
+        },
+        {
+          "title": "Design system",
+          "desc": "A small component library with colours, type and reusable components in Figma."
+        },
+        {
+          "title": "Case study",
+          "desc": "A complete project from research to prototype, written up for your portfolio."
+        }
+      ],
+      "tools": [
+        "Figma",
+        "FigJam",
+        "Maze",
+        "Notion"
+      ],
+      "batches": [
+        {
+          "type": "Weekend",
+          "days": "Sat and Sun",
+          "time": "10 am to 2 pm",
+          "day": "07",
+          "month": "Nov",
+          "open": true
+        },
+        {
+          "type": "Evening",
+          "days": "Mon, Wed, Fri",
+          "time": "6:30 pm to 9:30 pm",
+          "day": "23",
+          "month": "Nov",
+          "open": true
+        }
+      ],
+      "instructorRole": "Lead, Design",
+      "instructorJob": "a product designer",
+      "slug": "uiux",
+      "desc": "Research, wireframing and Figma prototyping. Finish with two case studies ready for your portfolio.",
+      "timings": [
+        "Evening",
+        "Weekend"
+      ]
+    },
+    {
+      "title": "Digital Marketing",
+      "cat": "Business",
+      "duration": "3 months",
+      "hours": "10 hrs a week",
+      "level": "Beginner",
+      "fee": "[Fee]",
+      "summary": "Learn how businesses find customers online. You will plan and run real campaigns across search, social and email, and learn to read the numbers that show what is working.",
+      "outcomes": [
+        "Plan a digital marketing strategy",
+        "Improve a website’s search ranking",
+        "Run Google and Meta ad campaigns",
+        "Create content for social media",
+        "Set up email marketing",
+        "Measure results with Google Analytics"
+      ],
+      "forWho": [
+        "Graduates looking for a marketing role",
+        "Small business owners",
+        "Freelancers who want to offer marketing services"
+      ],
+      "prereq": "No prior experience needed. You should be comfortable using social media and the web.",
+      "modules": [
+        {
+          "title": "Foundations",
+          "weeks": "Weeks 1–2",
+          "topics": [
+            "Marketing funnels",
+            "Audience research",
+            "Websites and landing pages"
+          ]
+        },
+        {
+          "title": "Search",
+          "weeks": "Weeks 3–5",
+          "topics": [
+            "Keyword research",
+            "On-page SEO",
+            "Google Ads"
+          ]
+        },
+        {
+          "title": "Social media",
+          "weeks": "Weeks 6–8",
+          "topics": [
+            "Content planning",
+            "Instagram and LinkedIn",
+            "Meta Ads"
+          ]
+        },
+        {
+          "title": "Email and analytics",
+          "weeks": "Weeks 9–10",
+          "topics": [
+            "Email campaigns",
+            "Google Analytics 4",
+            "Reporting"
+          ]
+        },
+        {
+          "title": "Live campaign",
+          "weeks": "Weeks 11–12",
+          "topics": [
+            "Plan",
+            "Run with a real budget",
+            "Report results"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "SEO audit",
+          "desc": "A full audit of a real local business website with a prioritised fix list."
+        },
+        {
+          "title": "Ad campaign",
+          "desc": "A Google or Meta campaign you plan, run and optimise with a small budget."
+        },
+        {
+          "title": "Marketing plan",
+          "desc": "A three-month plan for a business, presented to the class."
+        }
+      ],
+      "tools": [
+        "Google Ads",
+        "Meta Ads Manager",
+        "Google Analytics 4",
+        "Search Console",
+        "Canva",
+        "Mailchimp"
+      ],
+      "batches": [
+        {
+          "type": "Weekday",
+          "days": "Mon to Fri",
+          "time": "11 am to 1 pm",
+          "day": "09",
+          "month": "Nov",
+          "open": true
+        },
+        {
+          "type": "Evening",
+          "days": "Mon to Fri",
+          "time": "7 pm to 9 pm",
+          "day": "23",
+          "month": "Nov",
+          "open": true
+        }
+      ],
+      "instructorRole": "Lead, Digital Marketing",
+      "instructorJob": "a performance marketer",
+      "slug": "digital-marketing",
+      "desc": "SEO, social media, Google Ads and analytics, practised on live campaigns with a real budget.",
+      "timings": [
+        "Weekday",
+        "Evening"
+      ]
+    },
+    {
+      "title": "Accounting with Tally and GST",
+      "cat": "Business",
+      "duration": "2 months",
+      "hours": "10 hrs a week",
+      "level": "Beginner",
+      "fee": "[Fee]",
+      "summary": "Learn the accounting work a small business actually needs: keeping books, managing stock, running payroll and filing GST returns, all in Tally Prime.",
+      "outcomes": [
+        "Record day-to-day transactions correctly",
+        "Maintain ledgers and prepare financial statements",
+        "Manage inventory in Tally Prime",
+        "Run payroll with PF and ESI",
+        "Prepare and file GST returns",
+        "Generate reports for management"
+      ],
+      "forWho": [
+        "Commerce graduates",
+        "Accounts staff who want to upskill",
+        "Small business owners who keep their own books"
+      ],
+      "prereq": "Basic knowledge of commerce or accounts helps but is not required.",
+      "modules": [
+        {
+          "title": "Accounting basics",
+          "weeks": "Week 1",
+          "topics": [
+            "Double entry",
+            "Journals and ledgers",
+            "Trial balance"
+          ]
+        },
+        {
+          "title": "Tally Prime",
+          "weeks": "Weeks 2–4",
+          "topics": [
+            "Company setup",
+            "Vouchers",
+            "Inventory",
+            "Banking"
+          ]
+        },
+        {
+          "title": "GST",
+          "weeks": "Weeks 5–6",
+          "topics": [
+            "GST concepts",
+            "Invoicing",
+            "GSTR-1 and GSTR-3B"
+          ]
+        },
+        {
+          "title": "Payroll and reports",
+          "weeks": "Weeks 7–8",
+          "topics": [
+            "Payroll setup",
+            "PF and ESI",
+            "Financial statements",
+            "MIS reports"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Company books",
+          "desc": "Set up and maintain a month of accounts for a sample trading business."
+        },
+        {
+          "title": "GST filing",
+          "desc": "Prepare a full quarter of GST returns from invoices and purchases."
+        },
+        {
+          "title": "Payroll run",
+          "desc": "Process salaries with deductions for a small team."
+        }
+      ],
+      "tools": [
+        "Tally Prime",
+        "GST portal",
+        "Excel"
+      ],
+      "batches": [
+        {
+          "type": "Weekday",
+          "days": "Mon to Fri",
+          "time": "9 am to 11 am",
+          "day": "04",
+          "month": "Nov",
+          "open": true
+        },
+        {
+          "type": "Afternoon",
+          "days": "Mon to Fri",
+          "time": "3 pm to 5 pm",
+          "day": "18",
+          "month": "Nov",
+          "open": true
+        }
+      ],
+      "instructorRole": "Lead, Accounting",
+      "instructorJob": "a chartered accountant",
+      "slug": "tally-gst",
+      "desc": "Bookkeeping, Tally Prime, GST returns and payroll, worked through with the paperwork a small business actually has.",
+      "timings": [
+        "Weekday"
+      ]
+    },
+    {
+      "title": "Spoken English and Interview Skills",
+      "cat": "Communication",
+      "duration": "6 weeks",
+      "hours": "7.5 hrs a week",
+      "level": "All levels",
+      "fee": "[Fee]",
+      "summary": "Speak English with confidence at work and in interviews. Every class is practice: conversations, presentations, group discussions and mock interviews, with feedback each time.",
+      "outcomes": [
+        "Speak clearly and confidently in everyday situations",
+        "Introduce yourself well in interviews",
+        "Take part in group discussions",
+        "Give short presentations",
+        "Write clear professional emails",
+        "Answer common interview questions"
+      ],
+      "forWho": [
+        "Students preparing for placements",
+        "Job seekers",
+        "Professionals who want to speak up more at work"
+      ],
+      "prereq": "You should be able to read simple English. We place you in a group that matches your level.",
+      "modules": [
+        {
+          "title": "Everyday conversation",
+          "weeks": "Weeks 1–2",
+          "topics": [
+            "Pronunciation",
+            "Common phrases",
+            "Small talk"
+          ]
+        },
+        {
+          "title": "Speaking at work",
+          "weeks": "Weeks 3–4",
+          "topics": [
+            "Meetings",
+            "Presentations",
+            "Professional email"
+          ]
+        },
+        {
+          "title": "Interviews",
+          "weeks": "Weeks 5–6",
+          "topics": [
+            "Self-introduction",
+            "Group discussion",
+            "Recorded mock interviews"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Self-introduction video",
+          "desc": "A recorded introduction you refine with feedback until it is interview-ready."
+        },
+        {
+          "title": "Group discussion",
+          "desc": "A graded discussion on a current topic with peer and trainer feedback."
+        },
+        {
+          "title": "Mock interview",
+          "desc": "A full recorded mock interview reviewed with you line by line."
+        }
+      ],
+      "tools": [
+        "Recorded practice sessions",
+        "Vocabulary workbook",
+        "Mock interview kit"
+      ],
+      "batches": [
+        {
+          "type": "Early morning",
+          "days": "Mon to Fri",
+          "time": "7 am to 8:30 am",
+          "day": "23",
+          "month": "Nov",
+          "open": false
+        },
+        {
+          "type": "Weekend",
+          "days": "Sat and Sun",
+          "time": "10 am to 1 pm",
+          "day": "29",
+          "month": "Nov",
+          "open": true
+        }
+      ],
+      "instructorRole": "Lead, Communication",
+      "instructorJob": "a corporate trainer",
+      "slug": "spoken-english",
+      "desc": "Daily speaking practice, group discussions and mock interviews recorded and reviewed with you.",
+      "timings": [
+        "Weekday",
+        "Weekend"
+      ]
+    }
+  ]
+}

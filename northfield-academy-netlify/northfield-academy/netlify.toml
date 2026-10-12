@@ -1,0 +1,33 @@
+# Netlify configuration — Northfield Academy
+# Git deploys: Netlify runs the build and publishes /site.
+# Drag-and-drop deploys: drop the /site folder instead (it is already built).
+
+[build]
+  publish = "site"
+  command = "python3 src/build.py"
+
+[build.environment]
+  PYTHON_VERSION = "3.11"
+
+# Clean URLs: Netlify serves /courses/fullstack.html at /courses/fullstack too.
+# 404s: Netlify serves /404.html automatically for any missing path.
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-src https://www.google.com; form-action 'self'; base-uri 'self'; frame-ancestors 'none'"
+
+# CSS and JS: cache for a day, revalidate after (file names are not hashed)
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, must-revalidate"
+
+[[headers]]
+  for = "/assets/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
